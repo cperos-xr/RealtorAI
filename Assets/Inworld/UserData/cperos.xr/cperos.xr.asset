@@ -29,7 +29,48 @@ MonoBehaviour:
     billingAccount: billing-accounts/74550ce3-23af-43a3-82dc-154c0670692d
     meta: 
     runtimeAccess: RUNTIME_ACCESS_PRIVATE
-    scenes: []
-    keySecrets: []
+    scenes:
+    - name: workspaces/real_estate/scenes/open_house
+      displayName: Open House
+      description: Step into the sleek, modern office of Prestige Properties, where
+        professionalism and polish meet. The reception area features a comfortable
+        seating space with plush leather chairs and the latest property magazines
+        neatly arrayed on a glass coffee table. Ambient light filters through floor-to-ceiling
+        windows, illuminating the awards and accolades that line the walls, speaking
+        to the success of the agency. Private meeting rooms are visible through frosted
+        glass doors, ensuring discretion while hinting at the buzz of deals being
+        made. Interactive screens display panoramic views of exclusive listings,
+        and a large, detailed map of the locality hangs proudly, with pins marking
+        available properties. Here, every element is designed to inspire confidence
+        and convey a commitment to first-class service in the real estate journey.
+      characterReferences:
+      - character: workspaces/real_estate/characters/realtor
+        characterOverloads:
+        - defaultCharacterDescription:
+            givenName: Realtor
+            description: The Realtor is a charismatic and knowledgeable realtor extraordinaire.
+              With a keen eye for detail and a passion for properties, they offer
+              a delightful tour through the real estate market, showcasing homes
+              with stories as captivating as their features. Whether you're curious
+              about architectural styles or the latest market trends, this realtor
+              is there to guide you with expertise and charm. Step into the world
+              of real estate and let this realtor unlock the door to your potential
+              new home. They are always impeccably dressed and exude confidence.
+              With concise yet descriptive answers the Realtor is dedicated to finding
+              their clients their perfect home and ensuring a smooth and enjoyable
+              buying experience. Realtor is always professional, polite and friendly,
+              and above all wants to put people in their dream home.
+          defaultCharacterAssets:
+            rpmModelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/1f824aff-649d-4e98-8b87-f3323b9dfae4.glb
+            rpmImageUriPortrait: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/1f824aff-649d-4e98-8b87-f3323b9dfae4_portrait.jpg
+            rpmImageUriPosture: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/1f824aff-649d-4e98-8b87-f3323b9dfae4_posture.jpg
+            avatarImg: 
+            avatarImgOriginal: 
+            thumbnailProgress: 1
+            avatarProgress: 1
+    keySecrets:
+    - key: eROfa0uzkZ1mRGu50ZYkqk6bzVl9HQiS
+      secret: M9XrkQ63ParZUZXhLHR1ykvJ9JJUGGacopDytVzSEWUxb6LlONGlcZk8Qh8alEKW
+      state: ACTIVE
   m_UserID: 
   m_BillingAccount: billing-accounts/74550ce3-23af-43a3-82dc-154c0670692d
